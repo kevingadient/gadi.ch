@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #b7174b;
+  }
+  
+  nav ul {
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #730f30;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Lobster';
+  }
+  
+  nav li a {
+    font-size: 2rem;
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: .5s ;
+  }
+  
+  nav li a:hover {
+    background-color: #b7174b;
+  }
+
+  .title {
+      overflow: hidden;
+      position: absolute;
+      font-size: 3rem;
+      color: white;
+      left: 30px;
+      top: 0;
+      font-family: 'Lobster';
+  }
+
+  .dark {
+    height: 26px;
+    border-radius: 8px;
+    background-color: #b7174b;
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    right: 30px;
+    bottom: 10px;
+    font-family: 'Arial';
+    position: fixed;
+  }
+  .dark:hover{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .light {
+    height: 26px;
+    border-radius: 8px;
+    background-color: #b7174b;
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    right: 30px;
+    bottom: 10px;
+    font-family: 'Arial';
+    position: fixed;
+    display: none;
+  }
+  .light:hover{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  img { 
+    height: 140px;
+    bottom: 0px;
+  }
+
+  p {
+    width: auto ;
+    background-color: white;
+    margin: 120px;
+    padding: 80px 220px 80px 120px;
+    word-break: break-all;
+  }
